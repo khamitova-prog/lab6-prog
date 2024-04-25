@@ -1,0 +1,688 @@
+апр 25, 2024 12:03:19 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:03:19 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 12:03:19 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script1. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 00:02:58.530
+
+Выполнение команды add  из файла: 
+
+апр 25, 2024 12:04:40 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:04:40 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: add
+апр 25, 2024 12:04:41 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:second успешно  добавлен в коллекцию.
+апр 25, 2024 12:05:49 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:05:49 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: history
+апр 25, 2024 12:05:50 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:[execute_script, info, add, history, history]
+апр 25, 2024 12:17:56 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:17:56 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 12:17:56 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 12:32:37 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:32:37 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 12:32:37 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script1. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 00:32:10.809
+
+Выполнение команды add  из файла: 
+
+апр 25, 2024 12:33:44 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:33:44 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: add
+апр 25, 2024 12:33:45 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:the best успешно  добавлен в коллекцию.Выполнение команды history  из файла: 
+[execute_script, info, add, history]
+
+апр 25, 2024 12:35:58 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 12:35:58 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 12:35:58 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 2:49:49 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 2:49:49 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: help
+апр 25, 2024 2:49:50 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение: add {element}                      добавить новый элемент в коллекцию
+ remove_head                        вывести первый элемент коллекции и удалить его
+ print_field_descending_distance    вывести значения поля distance всех элементов в порядке убывания
+ execute_script                     Считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+ remove_first                       удалить первый элемент из коллекции
+ show                               Вывести в стандартный поток вывода все элементы коллекции.
+ clear                              Очистить коллекцию.
+ update                             Обновить значение элемента коллекции, id которого равен заданному.
+ remove_by_id                       Удалить элемент из коллекции по его id.
+ history                            Вывести последние 5 команд (без их аргументов).
+ help                               Вывести справку по доступным командам.
+ exit                               завершить программу (без сохранения в файл)
+ filter_by_distance                 вывести элементы, значение поля distance которых равно заданному
+ remove_any_by_distance             удалить из коллекции один элемент, значение поля distance которого эквивалентно заданному
+ info                               Вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.).
+
+апр 25, 2024 2:50:29 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 2:50:29 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 2:50:30 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 2:53:25 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 2:53:25 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: help
+апр 25, 2024 2:53:25 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:доступны команды:
+ add {element}                      добавить новый элемент в коллекцию
+ remove_head                        вывести первый элемент коллекции и удалить его
+ print_field_descending_distance    вывести значения поля distance всех элементов в порядке убывания
+ execute_script                     Считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+ remove_first                       удалить первый элемент из коллекции
+ show                               Вывести в стандартный поток вывода все элементы коллекции.
+ clear                              Очистить коллекцию.
+ update                             Обновить значение элемента коллекции, id которого равен заданному.
+ remove_by_id                       Удалить элемент из коллекции по его id.
+ history                            Вывести последние 5 команд (без их аргументов).
+ help                               Вывести справку по доступным командам.
+ exit                               завершить программу (без сохранения в файл)
+ filter_by_distance                 вывести элементы, значение поля distance которых равно заданному
+ remove_any_by_distance             удалить из коллекции один элемент, значение поля distance которого эквивалентно заданному
+ info                               Вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.).
+
+апр 25, 2024 2:54:22 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 2:54:22 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 2:54:22 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 3:02:48 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:02:48 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: help
+апр 25, 2024 3:02:48 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:доступны команды:
+ add {element}                      добавить новый элемент в коллекцию
+ remove_head                        вывести первый элемент коллекции и удалить его
+ print_field_descending_distance    вывести значения поля distance всех элементов в порядке убывания
+ execute_script                     Считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+ remove_first                       удалить первый элемент из коллекции
+ show                               Вывести в стандартный поток вывода все элементы коллекции.
+ clear                              Очистить коллекцию.
+ update                             Обновить значение элемента коллекции, id которого равен заданному.
+ remove_by_id                       Удалить элемент из коллекции по его id.
+ history                            Вывести последние 5 команд (без их аргументов).
+ help                               Вывести справку по доступным командам.
+ exit                               завершить программу (без сохранения в файл)
+ filter_by_distance                 вывести элементы, значение поля distance которых равно заданному
+ remove_any_by_distance             удалить из коллекции один элемент, значение поля distance которого эквивалентно заданному
+ info                               Вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.).
+
+апр 25, 2024 3:03:45 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:03:45 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 3:03:46 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 3:13:29 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:13:29 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 3:26:40 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:26:40 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 3:26:41 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 03:12:58.517
+
+апр 25, 2024 3:26:58 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:26:58 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 3:26:59 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 3:32:23 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:32:23 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 3:32:24 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 03:32:07.424
+
+апр 25, 2024 3:32:36 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:32:36 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 3:32:36 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 3:35:00 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:35:00 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 3:48:23 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:48:23 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 3:48:24 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 03:34:49.051
+
+апр 25, 2024 3:48:56 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:48:56 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: help
+апр 25, 2024 3:48:57 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:доступны команды:
+ add {element}                      добавить новый элемент в коллекцию
+ remove_head                        вывести первый элемент коллекции и удалить его
+ print_field_descending_distance    вывести значения поля distance всех элементов в порядке убывания
+ execute_script                     Считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+ remove_first                       удалить первый элемент из коллекции
+ show                               Вывести в стандартный поток вывода все элементы коллекции.
+ clear                              Очистить коллекцию.
+ update                             Обновить значение элемента коллекции, id которого равен заданному.
+ remove_by_id                       Удалить элемент из коллекции по его id.
+ history                            Вывести последние 5 команд (без их аргументов).
+ help                               Вывести справку по доступным командам.
+ exit                               завершить программу (без сохранения в файл)
+ filter_by_distance                 вывести элементы, значение поля distance которых равно заданному
+ remove_any_by_distance             удалить из коллекции один элемент, значение поля distance которого эквивалентно заданному
+ info                               Вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.).
+
+апр 25, 2024 3:49:24 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:49:24 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: show
+апр 25, 2024 3:49:25 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+апр 25, 2024 3:49:42 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 3:49:42 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 3:49:43 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 5:22:48 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:22:48 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 5:22:48 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 05:21:54.435
+
+апр 25, 2024 5:23:00 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:23:00 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: show
+апр 25, 2024 5:23:01 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+апр 25, 2024 5:23:32 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:23:32 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: update
+апр 25, 2024 5:23:32 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:
+апр 25, 2024 5:25:49 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:25:49 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: update
+апр 25, 2024 5:25:50 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Элемент коллекции успешно обновлен. Route{id=7, name='first', coordinates=Coordinates{x=23.0, y=23}, creationDate=2024-04-25T05:25:49.891, from=Location{x=111, y=111.0, z=111.0, name='Tula'}, to=Location{x=222, y=222.0, z=222.0, name='Orel'}, distance=521.0}
+
+апр 25, 2024 5:26:29 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:26:29 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: info
+апр 25, 2024 5:26:30 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 05:21:54.435
+
+апр 25, 2024 5:26:48 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:26:48 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: show
+апр 25, 2024 5:26:49 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=7, name='first', coordinates=Coordinates{x=23.0, y=23}, creationDate=2024-04-25T05:25:49.891, from=Location{x=111, y=111.0, z=111.0, name='Tula'}, to=Location{x=222, y=222.0, z=222.0, name='Orel'}, distance=521.0}
+
+апр 25, 2024 5:29:45 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:29:45 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 5:29:46 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=7, name='first', coordinates=Coordinates{x=23.0, y=23}, creationDate=2024-04-25T05:25:49.891, from=Location{x=111, y=111.0, z=111.0, name='Tula'}, to=Location{x=222, y=222.0, z=222.0, name='Orel'}, distance=521.0}
+
+Выполнение команды history  из файла: 
+[info, show, execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 05:21:54.435
+
+
+апр 25, 2024 5:33:12 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:33:12 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 5:33:12 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполнение скрипта execute_script execute_script прервано.
+апр 25, 2024 5:33:47 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 5:33:47 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 5:33:47 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 6:49:33 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 6:49:33 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 6:49:34 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 06:48:18.280
+
+
+апр 25, 2024 6:50:20 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 6:50:20 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 6:50:20 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[history, info, execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 06:48:18.280
+
+
+апр 25, 2024 6:50:36 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 6:50:36 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 6:50:37 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
+апр 25, 2024 7:04:42 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:04:42 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:04:43 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:03:27.887
+
+
+апр 25, 2024 7:05:34 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:05:34 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:05:35 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[history, info, execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:03:27.887
+
+
+апр 25, 2024 7:05:54 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:05:54 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:05:55 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script2. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:03:27.887
+
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды execute_script resources/script2 из файла: 
+Выполнение скрипта execute_script execute_script прервано.
+
+апр 25, 2024 7:07:04 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:07:04 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:15:58 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:15:58 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:23:09 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:23:09 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:25:43 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:25:43 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:25:44 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:25:07.142
+
+
+апр 25, 2024 7:26:00 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:26:00 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:26:00 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script1. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:25:07.142
+
+Выполнение команды add  из файла: 
+
+апр 25, 2024 7:27:44 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:27:44 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: add
+апр 25, 2024 7:27:45 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:good успешно  добавлен в коллекцию.
+Выполнение команды history  из файла: 
+[info, execute_script, info, add, history]
+
+апр 25, 2024 7:28:13 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:28:13 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:36:48 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:36:48 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:36:48 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script2. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:36:19.886
+
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды execute_script resources/script2 из файла: 
+Выполнение скрипта execute_script execute_script прервано.
+
+апр 25, 2024 7:37:18 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:37:18 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:43:31 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:43:31 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 7:43:32 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script1. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 07:42:56.704
+
+Выполнение команды add  из файла: 
+
+апр 25, 2024 7:44:51 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:44:51 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: add
+апр 25, 2024 7:44:51 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:change успешно  добавлен в коллекцию.
+Выполнение команды history  из файла: 
+[execute_script, info, add, history]
+
+апр 25, 2024 7:46:15 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 7:46:15 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 8:09:55 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:09:55 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 8:09:56 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 08:09:27.748
+
+
+апр 25, 2024 8:11:39 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:11:39 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: help
+апр 25, 2024 8:11:40 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:доступны команды:
+ add {element}                      добавить новый элемент в коллекцию
+ remove_head                        вывести первый элемент коллекции и удалить его
+ print_field_descending_distance    вывести значения поля distance всех элементов в порядке убывания
+ execute_script                     Считать и исполнить скрипт из указанного файла. В скрипте содержатся команды в таком же виде, в котором их вводит пользователь в интерактивном режиме.
+ remove_first                       удалить первый элемент из коллекции
+ show                               Вывести в стандартный поток вывода все элементы коллекции.
+ clear                              Очистить коллекцию.
+ update                             Обновить значение элемента коллекции, id которого равен заданному.
+ remove_by_id                       Удалить элемент из коллекции по его id.
+ history                            Вывести последние 5 команд (без их аргументов).
+ help                               Вывести справку по доступным командам.
+ exit                               завершить программу (без сохранения в файл)
+ filter_by_distance                 вывести элементы, значение поля distance которых равно заданному
+ remove_any_by_distance             удалить из коллекции один элемент, значение поля distance которого эквивалентно заданному
+ info                               Вывести в стандартный поток вывода информацию о коллекции (тип, дата инициализации, количество элементов и т.д.).
+
+апр 25, 2024 8:11:57 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:11:57 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 8:11:58 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script2. 
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 08:09:27.748
+
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды execute_script resources/script2 из файла: 
+Выполнение скрипта execute_script execute_script прервано.
+
+апр 25, 2024 8:12:28 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:12:28 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: execute_script
+апр 25, 2024 8:12:28 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Выполняется скрипт из файла resources/script. 
+Выполнение команды show  из файла: 
+Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+Выполнение команды history  из файла: 
+[show, execute_script, execute_script, show, history]
+Выполнение команды info  из файла: 
+Сведения о коллекции: 
+тип: java.util.ArrayDeque
+количество элементов: 4
+дата последнего сохранения: В данной сессии сохранение еще не происходило.
+дата последней инициализации: 2024-04-25 08:09:27.748
+
+
+апр 25, 2024 8:12:48 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:12:48 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: history
+апр 25, 2024 8:12:49 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:[execute_script, show, history, info, history]
+апр 25, 2024 8:13:55 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:13:55 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: show
+апр 25, 2024 8:13:56 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Элементы коллекции:
+Route{id=6, name='123', coordinates=Coordinates{x=123.0, y=123}, creationDate=2024-02-15T14:04:52.207, from=Location{x=123, y=123.0, z=123.3, name='new'}, to=Location{x=321, y=321.0, z=321.0, name='old'}, distance=432.0}
+Route{id=7, name='??µ????µ?????', coordinates=Coordinates{x=121.0, y=32}, creationDate=2024-02-15T15:53:47.060, from=Location{x=22, y=22.0, z=2.0, name='???°??°?»??'}, to=Location{x=43, y=43.0, z=12.0, name='????????'}, distance=123.0}
+Route{id=1, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+Route{id=5, name='first', coordinates=Coordinates{x=23.2, y=45}, creationDate=2024-02-14T10:29:20.518, from=Location{x=52, y=12.4, z=54.0, name='start'}, to=Location{x=543, y=0.43, z=34.5, name='end'}, distance=12.2}
+
+апр 25, 2024 8:14:13 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:14:13 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: remove_by_id
+апр 25, 2024 8:14:13 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Элемент с id=6 удален из коллекции.
+апр 25, 2024 8:14:59 AM com.stellayellow.client.network.DatagramChannelClient sendAndReceive
+INFO: start sendClient 
+апр 25, 2024 8:14:59 AM com.stellayellow.client.network.SendClient sendRequest
+INFO: Send result of request to server: exit
+апр 25, 2024 8:15:00 AM com.stellayellow.client.network.ReceiveClient receiveManager
+INFO: Получено сообщение:Клиент завершает работу.
